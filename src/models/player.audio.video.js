@@ -331,6 +331,7 @@ $p.newModel({
     androidVersion: 3,
     iosVersion: 4,    
     iLove: [
+        {ext:'m3u8', type:'application/vnd.apple.mpegurl', platform:'ios', streamType: ['http','httpVideo', 'httpVideoLive']},
         {ext:'m3u8', type:'application/mpegURL', platform: ['ios', 'android'], streamType: ['http','httpVideo', 'httpVideoLive']},
         {ext:'m3u', type:'application/mpegURL', platform: ['ios', 'android'], streamType: ['http', 'httpVideo', 'httpVideoLive']},     
         // {ext:'m3u8', type:'vnd.apple.mpegURL', platform:'ios'},
