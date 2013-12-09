@@ -102,7 +102,7 @@ module.exports = function (grunt) {
       all: {
         files: filesPreUglify,
         options: {
-          banner: "/*! Projekktor v<%= pkg.version %> | " + "http://www.projekktor.com | " + "Copyright 2010, 2011, Sascha Kluger, Spinning Airwhale Media, http://www.spinningairwhale.com | " + "GNU General Public License - http://www.projekktor.com/license/\n" + "//@ sourceMappingURL=projekktor.min.map\n" + "*/"
+          banner: "/*! Projekktor v<%= pkg.version %> | " + "http://www.projekktor.com | " + "Copyright 2010, 2011, Sascha Kluger, Spinning Airwhale Media, http://www.spinningairwhale.com | " + "GNU General Public License - http://www.projekktor.com/license/\n" + "//@ sourceMappingURL=projekktor-" + version + ".min.map\n" + "*/"
         }
       }
     },
